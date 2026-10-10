@@ -1,0 +1,30 @@
+--input
+"D:\\Trabajo\\GestorAndroid\\desktop\\build\\compose\\tmp\\createDistributable\\libs"
+--runtime-image
+"D:\\Trabajo\\GestorAndroid\\desktop\\build\\compose\\tmp\\main\\runtime"
+--resource-dir
+"D:\\Trabajo\\GestorAndroid\\desktop\\build\\compose\\tmp\\resources"
+--java-options
+"'-Dcompose.application.resources.dir=$APPDIR\\resources'"
+--main-jar
+"desktop-eb885cdbcd432cacf9d7af12d724648.jar"
+--main-class
+"com.example.gestorstock.desktop.MainKt"
+--icon
+"D:\\Trabajo\\GestorAndroid\\desktop\\build\\compose\\default-resources\\1.6.11\\default-icon-windows.ico"
+--java-options
+"'-Dcompose.application.configure.swing.globals=true'"
+--java-options
+"'-Dskiko.library.path=$APPDIR'"
+--type
+"app-image"
+--dest
+"D:\\Trabajo\\GestorAndroid\\desktop\\build\\compose\\binaries\\main\\app"
+--name
+"GestorStock"
+--description
+"GestorStock - Control de Inventario y Ventas"
+--copyright
+"© 2026 GestorStock"
+--app-version
+"1.0.0"

@@ -31,3 +31,4 @@ plugins {
 
 rootProject.name = "GestorStock"
 include(":app")
+include(":desktop")

@@ -50,9 +50,13 @@ androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version =
 androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version = "1.4.1" }
 androidx-camera-view = { module = "androidx.camera:camera-view", version = "1.4.1" }
 google-mlkit-barcode = { module = "com.google.mlkit:barcode-scanning", version = "17.3.0" }
+sqlite-jdbc = { module = "org.xerial:sqlite-jdbc", version = "3.41.2.2" }
+org-json = { module = "org.json:json", version = "20240303" }
+kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "coroutines" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
